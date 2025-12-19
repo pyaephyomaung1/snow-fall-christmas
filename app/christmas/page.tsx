@@ -159,18 +159,6 @@ const App = () => {
 
         {/* Footer */}
         <footer className="mt-24 text-center space-y-4">
-          <div className="flex flex-wrap justify-center gap-6 text-slate-500/80 text-sm">
-            <span className="inline-flex items-center gap-2 hover:text-slate-300 transition-colors cursor-pointer">
-              <Heart size={14} /> Share Love
-            </span>
-            <span className="inline-flex items-center gap-2 hover:text-slate-300 transition-colors cursor-pointer">
-              <Star size={14} /> Make a Wish
-            </span>
-            <span className="inline-flex items-center gap-2 hover:text-slate-300 transition-colors cursor-pointer">
-              <Bell size={14} /> Ring Bells
-            </span>
-          </div>
-          
           <div className="text-slate-600 font-medium tracking-wider uppercase text-xs">
             Wishing you peace and good health this holiday season
           </div>
@@ -214,22 +202,6 @@ const App = () => {
                 </p>
               </div>
             </div>
-            
-            <div className="flex gap-4 mt-10">
-              <button 
-                onClick={() => setShowModal(false)}
-                className="flex-1 py-4 bg-slate-800 hover:bg-slate-700 rounded-xl font-bold transition-all hover:shadow-lg"
-              >
-                Share Joy
-              </button>
-              <button 
-                onClick={openGift}
-                className="flex-1 py-4 bg-red-600 hover:bg-red-500 rounded-xl font-bold transition-all hover:shadow-lg"
-              >
-                Another Wish!
-              </button>
-            </div>
-            
             <div className="mt-6 text-sm text-slate-500">
               {wishHistory.length} of {wishes.length} wishes collected
             </div>
