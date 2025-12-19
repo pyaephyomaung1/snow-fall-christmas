@@ -1,7 +1,6 @@
 'use client'
 import React, { useState, useEffect } from 'react';
 import { TreeDeciduous, X, Gift, Sparkles, Snowflake, Star, Heart, Music, Bell, CandyCane, StarIcon as StarSolid } from "lucide-react";
-import TwinkleLights from "@/components/TwinkleLights";
 
 const App = () => {
   const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
@@ -70,7 +69,7 @@ const App = () => {
   };
 
   return (
-    <div className="min-h-screen bg-slate-950 bg-texture text-slate-50 font-sans overflow-x-hidden relative">
+    <div className="min-h-[200vh] bg-slate-950 bg-texture text-slate-50 font-sans overflow-x-hidden relative">
       <main className="container mx-auto px-4 py-12 relative z-20">
         {/* Hero Header */}
         <header className="text-center mb-16 space-y-6">

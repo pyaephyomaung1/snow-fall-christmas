@@ -29,10 +29,6 @@ export default function TwinkleLights({
       aria-hidden
     >
       {/* wire */}
-      <div
-        className="absolute top-4 left-0 right-0 h-px"
-        style={{ backgroundColor: `rgba(255,255,255,${wireOpacity})` }}
-      />
 
       {/* bulbs */}
       <div className="relative flex justify-center gap-6 h-full">
